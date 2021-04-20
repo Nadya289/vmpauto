@@ -1,0 +1,7 @@
+.intro {
+  padding-top: 100px;
+  height: 635px;
+  background-color: #611b17;
+  background: url("../img/header/fon.png") no-repeat center center/cover;
+  overflow: hidden;
+}

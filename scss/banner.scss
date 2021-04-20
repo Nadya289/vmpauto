@@ -1,0 +1,44 @@
+.banner{
+   height: 450px;
+   overflow: hidden;
+   margin: 20px 0;
+}
+.banner__inner{
+    display: flex;  
+}
+.banner__inner-right{
+    width: 80%;
+    background: url('../img/i10.jpg') no-repeat center center/cover;
+    padding: 2em;   
+}
+.banner__inner-content{
+    margin: 0;
+    width: 60%;
+    padding: 3em 3em;
+    background: rgba(255,255,255,0.7);
+} 
+.banner__inner-title{
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    margin: 0;   
+}
+.banner__inner-text{
+    font-family: "Open Sans", sans-serif;
+}
+@media (max-width: 991px){
+    .banner__inner-left{
+        display: none;
+    }
+}
+@media (max-width: 565px){
+    .banner__inner-title{
+        font-size: 20px;
+    }  
+}
+@media (max-width: 375px){
+    .banner__inner-title{
+        font-size: 18px;
+        font-weight: 700;
+    }
+}

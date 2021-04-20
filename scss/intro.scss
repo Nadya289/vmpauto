@@ -1,0 +1,75 @@
+.intro{
+   
+	height:635px;
+    background-color: #611b17;
+    background: url('../img/head/sm.jpg') no-repeat center center/cover;
+    overflow:hidden;
+    display: flex;
+    position: relative;   
+}
+.form-open{
+    max-width: 322px;
+    padding: 10px 0 30px;
+    border: 1px solid #b9b9b9;
+    border-radius: 3px;
+    background-color: #fff;
+    z-index: 2;
+    position: absolute;
+    right: 10px;
+    top:40px;
+} 
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+}
+.form-input{
+    width: 238px;
+    height: 45px;
+    border: 1px solid rgb(197, 196, 196);; ;
+    border-radius:3px;
+    margin: 15px auto;
+    box-shadow: 0 0 5px rgb(197, 196, 196);; 
+}
+.btn{
+    padding: 14px 22px;
+    font-size: 20px;
+    border: none;
+    background: #2db458;
+    color: white;
+    cursor:pointer;
+    border:none;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.form-inputs__phone{
+    color: rgb(158, 204, 235);; ;
+    font-size: 24px;
+    margin: 20px 0 49px;
+}
+.content__item-form {
+    padding: 20px 10px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    position: relative;
+  }
+@media (max-width: 767px){
+ .form-open{
+     right: 25%;
+ }
+}
+@media (max-width: 565px){
+    .intro{
+        background:none;
+    } 
+    .form-open{
+        right: 12%;
+    }
+}
+@media (max-width: 375px){
+    .form-open{
+        right: 4%;;
+    }
+}
+
+    

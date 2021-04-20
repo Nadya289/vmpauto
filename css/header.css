@@ -1,0 +1,19 @@
+.header {
+  padding: 1.2rem 0;
+  position: relative;
+}
+@media (max-width: 767px) {
+  .header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: white;
+  }
+}
+
+.nav__logo {
+  width: 30px;
+  height: 30px;
+}

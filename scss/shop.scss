@@ -1,0 +1,44 @@
+.shop{
+    padding: 0px 0 20px 0 ;
+    text-align: center;
+}
+.shop-title{
+    margin: 50px 0 10px 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+.shop__inner{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.shop__inner-item{
+    width: 33.3333%;
+    margin: 0 5px 0 5px;
+    text-align: center;
+}
+.shop__inner-title{
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+@media (max-width: 991px ){
+    .shop__inner{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .shop__inner-item{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .shop-title{
+        text-align: center;
+    }
+    .shop__inner-item{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
